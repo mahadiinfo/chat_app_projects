@@ -1,0 +1,32 @@
+node_modules
+.env
+.DS_Store   
+dist
+.vscode
+coverage    
+npm-debug.log
+yarn-error.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea
+*.log
+/build
+*.env
+*.local
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.iml
+# Dependencies
+    /node_modules
+    # Build artifacts
+    /client/build
+    /client/dist
+    /server/dist
+    # Log files
+    *.log
+    # Environment files
+    .env
