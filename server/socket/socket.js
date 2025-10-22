@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: process.env.CLINT_URL,
+    origin: ["https://time-pass-ten.vercel.app"]
   },
 });
 
