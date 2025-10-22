@@ -9,7 +9,7 @@ import cors from "cors"
 connectDb(); 
 
 app.use(cors({
-    origin:["https://tima-pass-app.netlify.app/"],
+    origin:["https://time-pass-puce.vercel.app/"],
     credentials:true,
 }));
 app.use(express.json());
