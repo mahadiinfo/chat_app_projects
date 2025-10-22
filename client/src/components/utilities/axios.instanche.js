@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const DB_URL = import.meta.env.VITE_APP_API_BASE_URL;
+const DB_URL = "chatappprojects-production.up.railway.app/api/v1";
 export const axiosIns = axios.create({
   baseURL: DB_URL,
   withCredentials: true,
