@@ -9,7 +9,7 @@ import cors from "cors"
 connectDb(); 
 
 app.use(cors({
-    origin:["https://time-pass-puce.vercel.app/"],
+    origin:["https://time-pass-ten.vercel.app/"],
     credentials:true,
 }));
 app.use(express.json());
